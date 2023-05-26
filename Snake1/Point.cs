@@ -8,5 +8,8 @@ namespace Snake1
 {
     internal class Point
     {
+        public int x;
+        public int y;
+        public char sym;
     }
 }
