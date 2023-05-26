@@ -22,7 +22,7 @@ namespace Snake1
 
             Draw(x2, y2, sym2);
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
         static void Draw(int x, int y, char sym)
         {
