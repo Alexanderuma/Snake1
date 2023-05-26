@@ -17,6 +17,7 @@ namespace Snake1
             p2.Draw();
 
 
+
             Console.ReadLine();
         }
     }
