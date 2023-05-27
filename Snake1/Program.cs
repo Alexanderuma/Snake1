@@ -30,6 +30,13 @@ namespace Snake1
                 Console.WriteLine(i);
             }
 
+            numList.RemoveAt(0); // Функция для удаления элемента из списка
+
+            List<Point> pList = new List<Point>(); // Создали список pList и Добавили в него 2 точки
+            pList.Add(p1);
+            pList.Add(p2);
+
+
             Console.ReadLine();
         }
     }
